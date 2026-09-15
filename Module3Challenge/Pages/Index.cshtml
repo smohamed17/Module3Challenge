@@ -21,6 +21,7 @@
     <button type="submit">Getting the results</button>
 </form>
 
-<!-- Add an if statement here to check if Model.HungerMessage is not empty -->
-<!-- If it's not empty, display the three messages in paragraphs or divs -->
-<!-- Display Model.HungerMessage, Model.SoundMessage, and Model.DayMessage -->
+@if (Model.ShowResults)
+{
+    <h2></h2>
+}
