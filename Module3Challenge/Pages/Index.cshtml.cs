@@ -26,15 +26,17 @@ namespace Module3Challenge.Pages
                 HungerMessage = "Ohh ohh! I'll take some bananas.";
             }
 
-            else (hungerLevel < 5 )
+            else 
             {
                 HungerMessage = "Slow and steady, I'll have some lettuce";
             }
 
-            SoundMessage = (hungerLevel >= 8) ? 
+            SoundMessage = (hungerLevel >= 8) ? "Listen to the Lion: Roar!" : "Listen to the Monkey: Ooh ooh!";
 
-            // Add your switch statement here
-            // Use dayOfWeek to set DayMessage with a fun zoo event for each day
+            switch (dayOfWeek)
+            {
+                
+            }
         }
     }
 }
