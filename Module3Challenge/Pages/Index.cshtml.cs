@@ -16,14 +16,22 @@ namespace Module3Challenge.Pages
 
         public void OnPost(int hungerLevel, int dayOfWeek)
         {
-            // Add your if-else statement here
-            // 🦁 If hungerLevel >= 8, set HungerMessage to "Lion: Roar! I need a big meal!"
-            // 🐵 If hungerLevel >= 5, set HungerMessage to "Monkey: Ooh ooh! I'll take some bananas."
-            // 🐢 If hungerLevel < 5, set HungerMessage to "Tortoise: Slow and steady, I'll have some lettuce."
+           if (hungerLevel >= 8)
+            {
+                HungerMessage = "Roar! I need a big meal!";
+            }
 
-            // Add your ternary operator here
-            // If hungerLevel >= 8, set SoundMessage to "Listen to the Lion: Roar!"
-            // Else, set SoundMessage to "Listen to the Monkey: Ooh ooh!"
+            else if (hungerLevel >= 5)
+            {
+                HungerMessage = "Ohh ohh! I'll take some bananas.";
+            }
+
+            else (hungerLevel < 5 )
+            {
+                HungerMessage = "Slow and steady, I'll have some lettuce";
+            }
+
+            SoundMessage = (hungerLevel >= 8) ? 
 
             // Add your switch statement here
             // Use dayOfWeek to set DayMessage with a fun zoo event for each day
