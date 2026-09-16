@@ -61,7 +61,7 @@ namespace Module3Challenge.Pages
                 break;
 
                 case 2: 
-                DayMessage = "A mini dj-set party from birds on a Monday";
+                DayMessage = "A mini dj-set party from birds on a Monday"; // this is by far, my favorite event during the week. The birds knows how to jam!!
                 break;
 
                 case 1:
