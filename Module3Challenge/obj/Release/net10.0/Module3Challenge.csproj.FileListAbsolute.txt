@@ -1,0 +1,9 @@
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/rpswa.dswa.cache.json
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.AssemblyInfoInputs.cache
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.AssemblyInfo.cs
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.csproj.CoreCompileInputs.cache
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.RazorAssemblyInfo.cache
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.RazorAssemblyInfo.cs
+/workspaces/Module3Challenge/Module3Challenge/obj/Release/net10.0/Module3Challenge.sourcelink.json
