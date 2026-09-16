@@ -9,7 +9,7 @@ namespace Module3Challenge.Pages
         public string SoundMessage { get; set; } = string.Empty;
         public string DayMessage { get; set; } = string.Empty;
 
-        public bool ShowResults {get; set; } = false;
+        public bool ShowResults {get; set; } = false; // you must use show results in order for it to be displayed on the webpage. 
 
         public void OnGet()
         {
@@ -21,25 +21,25 @@ namespace Module3Challenge.Pages
             
             ShowResults = true;
 
-           if (hungerLevel >= 8) // this will focus on the 
+           if (hungerLevel >= 8) // this will focus on the if the hunger level is above 8 
             {
                 HungerMessage = "Roar! I need a big meal!";
             }
 
-            else if (hungerLevel >= 5)
+            else if (hungerLevel >= 5) // in the range between 5 and just before 8. 
             {
                 HungerMessage = "Ohh ohh! I'll take some bananas.";
             }
 
-            else 
+            else // if this was anything under 5 in the hunger level. 
             {
                 HungerMessage = "Slow and steady, I'll have some lettuce";
             }
 
-            SoundMessage = (hungerLevel >= 8) ? "Listen to the Lion: Roar!" : "Listen to the Monkey: Ooh ooh!";
+            SoundMessage = (hungerLevel >= 8) ? "Listen to the Lion: Roar!" : "Listen to the Monkey: Ooh ooh!"; // the sound will be displayed on the webpage by using the tenary. 
 
             switch (dayOfWeek)
-            {
+            { // depending on the day itself, it will display an event that will take place during the day of the week using switch statements. 
                 case 7: 
                 DayMessage = "Zebra's moose cake party on a Saturday ";
                 break;
